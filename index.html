@@ -2,12 +2,14 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>scaffold Home page</title>
+		<title>Mid term object</title>
 		<link rel="stylesheet" href="css/reset.css" type="text/css">
 		<link href="css/main.css" rel="stylesheet" type="text/css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
 	</head>
 	<body>
-		<h1 class="hidden">Create scaffold Homepage</h1>
+		<h1 class="hidden">main Home page</h1>
 		<div id="Container">
 
 			<h1 class="hidden">MainHeader</h1>
@@ -16,36 +18,43 @@
 				<section id="mainHeader">
 					<h1 class="hidden">logo</h1>
 					<div id="logo">
-						<p class="text_w">logo</p>
+						<a href="index.html">
+						<img src="images/logo.png" alt="logo image" width="146">
+						</a>
 					</div>
 
 						<h1 class="hidden">Navigation</h1>
 						<nav id="navCon">
-							<ul id="subNav">
-								<li class="socialNav"></li>
-								<li class="socialNav"></li>
-								<li class="socialNav"></li>
-								<li class="socialNav"></li>
+							<div id="subNav">
+							<ul>
+								<li>
+									<a href="https://www.facebook.com/pages/Alexander-Keiths-Brewery/104201766282701">
+										<img src="images/bt_face.png" alt="face book" > </a></li>
+								<li> <a href="https://www.instagram.com/alexander_keiths/"> <img src="images/bt_in.png" alt="face book" > </a> </li>
+								<li> <a href="https://twitter.com/alexanderkeiths?lang=en"> <img src="images/bt_tw.png" alt="face book" > </a> </li>
 							</ul>
-							<ul id="mainNav">
-								<li class="mainNavbt">menu01</li>
-								<li class="mainNavbt">menu02</li>
-								<li class="mainNavbt">menu03</li>
-								<li class="mainNavbt">menu04</li>
+						</div>
+							<div id="mainNav">
+							<ul>
+								<li > <a href="about.html"> ABOUT </a> </li>
+								<li > <a href="product.html"> PRODUCT </a> </li>
+								<li > <a href="advertisement.html"> ADVERTISEMENT </a> </li>
+								<li > <a href="contact.html"> CONTACT </a> </li>
 							</ul>
+						</div>
 						</nav>
 					</section>
 					<h1 class="hidden">Main Headline</h1>
 					<section id="mainTitle">
-						<h3 id="maintitleCon">Main Title</h3>
+
 					</section>
 				</header>
 				<h1 class="hidden">Promotion description</h1>
 				<div id="mainText">
-					<p class="mainheadlinetitle">Promo Description</p>
-					<article class="text_b">Here is main description Here is main description Here is main description
-					<br>Here is main descriptionHere is main description
-					<br>Here is main description
+					<hr>
+					<p class="mainheadlinetitle">ALEXAMDER KEITH"S BEER</p>
+					<article class="text_b">Alexander Keith's beer was born in Nova Scotia in 1820.
+
 					</article>
 				</div>
 
@@ -53,34 +62,43 @@
 			<main>
 				<h1 class="hidden">Promotion Image</h1>
 				<section id="PromoImage">
-					<div class="Promo">Promo Image 01</div>
-					<div class="Promo">Promo Image 02</div>
+					<div class="Promo"> <img src="images/promo_main01.jpg" alt="promotion Image 01" > </div>
+					<div class="Promo"><img src="images/promo_main02.jpg" alt="promotion Image 01" > </div>
 				</section>
 				<h1 class="hidden">Promotion Text</h1>
 				<section id="PromoDes">
-					<p class="mainheadlinetitle">gallery Description</p>
-					<article class="text_b">Here is main description Here is main description Here is main description
-					<br>Here is main descriptionHere is main description
-					<br>Here is main description
-					</article>
+						<hr>
+					<h3 class="mainheadlinetitle">ADVERTISEMENT</h3>
+					<p class="text_b">
+						Advertisements were produced to promote the consumption of beer.
+					</p>
 				</section>
 
-				<h1 class="hidden">gallery Image</h1>
+				<h1 class="hidden">Advertisement images</h1>
 				<section id="galleryImage">
-					<div class="gallery">Gallery Image 01</div>
-					<div class="gallery">Gallery Image 02</div>
-					<div class="gallery">Gallery Image 03</div>
-					<div class="gallery">Gallery Image 04</div>
-					<div class="gallery">Gallery Image 05</div>
-					<div class="gallery">Gallery Image 06</div>
-					<div class="gallery">Gallery Image 07</div>
-					<div class="gallery">Gallery Image 08</div>
-					<div class="gallery">Gallery Image 09</div>
+					<div class="gallery"><img src="images/Home_gallery01.jpg" alt="gallery Image 01" ></div>
+					<div class="gallery"><img src="images/Home_gallery02.jpg" alt="gallery Image 02" ></div>
+					<div class="gallery"><img src="images/Home_gallery03.jpg" alt="gallery Image 03" ></div>
 				</section>
 			</main>
 			<h1 class="hidden">FooterNavigation</h1>
 			<footer id="mainFooter">
-				<p>Footer</p>
+				<div id="FooterNavigation">
+				<p id="FooterText"> ENJOY RESPONSIBLY</p>
+				<nav>
+					<ul>
+						<li > <a href="index.html"> HOME </a> </li>
+						<li > <a href="about.html"> ABOUT </a> </li>
+						<li > <a href="product.html"> PRODUCT </a> </li>
+						<li > <a href="advertisement.html"> ADVERTISEMENT </a> </li>
+						<li > <a href="contact.html"> CONTACT </a> </li>
+					</ul>
+				</nav>
+				</div>
+				<div id="addressCon">
+					<h1 class="hidden">address</h1>
+					<p>®/MD/TM/MC Alexander Keith's Brewery. Enjoy Responsibly. Do not share this content with minors. All rights reserved.</p>
+				</div>
 			</footer>
 		</div>
 		<script src="js/main.js"></script>
